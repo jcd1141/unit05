@@ -22,3 +22,14 @@ let average = total / grades.length;
 
 console.log("Average:");
 console.log(average);
+
+grades.sort((a, b) => a - b);
+
+console.log("Sorted Grades:");
+console.log(grades);
+
+console.log("Lowest:");
+console.log(grades[0]);
+
+console.log("Highest:");
+console.log(grades[grades.length - 1]);
