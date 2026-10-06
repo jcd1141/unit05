@@ -44,10 +44,28 @@ let numbers2: number[] = [50, 60];
 
 let combined = numbers.concat(numbers2);
 
-console.log("Concat");
+console.log("Concatinated");
 console.log(combined);
 
 let combined2 = [...numbers, ...numbers2];
 
 console.log("Spread");
 console.log(combined2);
+
+console.log("Keys");
+
+for (let key of numbers.keys()) {
+    console.log(key);
+}
+
+console.log("Values");
+
+for (let value of numbers.values()) {
+    console.log(value);
+}
+
+console.log("Entries");
+
+for (let entry of numbers.entries()) {
+    console.log(entry);
+}
