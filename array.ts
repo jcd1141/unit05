@@ -34,3 +34,20 @@ numbers.splice(1, 1);
 
 console.log("After splice");
 console.log(numbers);
+
+numbers.fill(100, 1, 2);
+
+console.log("After fill");
+console.log(numbers);
+
+let numbers2: number[] = [50, 60];
+
+let combined = numbers.concat(numbers2);
+
+console.log("Concat");
+console.log(combined);
+
+let combined2 = [...numbers, ...numbers2];
+
+console.log("Spread");
+console.log(combined2);
