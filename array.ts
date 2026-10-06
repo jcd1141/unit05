@@ -21,3 +21,16 @@ console.log(numbers);
 numbers.shift();
 console.log("After shift");
 console.log(numbers);
+
+let sliced = numbers.slice(1, 3);
+
+console.log("Slice");
+console.log(sliced);
+
+console.log("Original");
+console.log(numbers);
+
+numbers.splice(1, 1);
+
+console.log("After splice");
+console.log(numbers);
