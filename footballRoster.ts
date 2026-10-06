@@ -1,13 +1,13 @@
 //Joshua Dalton
 //IT 505
 
-let players: string[] = [];
+let players: string[] = []; //holds players
 
 console.log("Football Roster");
 
 let choice = "";
 
-while (choice != "4") {
+while (choice != "4") { //program runs until 4
     console.log("1. Add Player");
     console.log("2. Remove Player");
     console.log("3. View Players");
@@ -19,7 +19,7 @@ while (choice != "4") {
         let player = prompt("Enter player name:");
 
         if (player != null) {
-            players.push(player);
+            players.push(player); //adds player to array
         }
     }
 
